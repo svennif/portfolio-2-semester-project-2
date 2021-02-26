@@ -1,0 +1,97 @@
+/* Color Theme Swatches in Hex */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+.card-main-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  border-bottom: 2px solid #0D080B;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+}
+
+.card {
+  width: 270px;
+  height: 290px;
+  margin: 10px 20px 10px 0;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.card .card-text {
+  font-family: "Zilla Slab", serif;
+}
+
+.card input[type=checkbox] {
+  opacity: 0;
+}
+
+.card input[type=checkbox]:checked + label {
+  color: #df7d06;
+}
+
+.card input[type=checkbox]:disabled + label {
+  color: #f0ddcd;
+}
+
+.card input[type=checkbox]:disabled + label img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.card .card-img-top {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cardButton {
+  visibility: hidden;
+  background-color: #df7d06;
+  font-size: 1.2rem;
+  font-family: "Zilla Slab", serif;
+  color: #0D080B;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+.cardButton:hover {
+  color: #df7d06;
+  background-color: #0D080B;
+}
+
+.cardButton:checked {
+  border: none;
+}
+
+.next {
+  background: url(../images/next.svg);
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    margin: 10px auto 10px auto;
+  }
+  .card-main-title {
+    margin: 20px auto 10px auto;
+  }
+  .cardButton {
+    visibility: hidden;
+    background-color: #df7d06;
+    color: #0D080B;
+  }
+}
+/*# sourceMappingURL=cards.css.map */

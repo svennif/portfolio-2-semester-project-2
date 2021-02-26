@@ -1,0 +1,12 @@
+/* Color Theme Swatches in Hex */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+.navbar {
+  background-color: #0D080B;
+}
+
+.navbar span {
+  color: #f0ddcd;
+  text-decoration: none;
+}
+/*# sourceMappingURL=navbar.css.map */

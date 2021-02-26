@@ -1,0 +1,62 @@
+/* Color Theme Swatches in Hex */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+.victory-title {
+  font-size: 3rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #df7d06;
+  padding-bottom: 3px;
+}
+
+.victory-img {
+  height: auto;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.victory-text {
+  font-size: 2rem;
+  font-weight: 600;
+  border-top: 2px solid #df7d06;
+  padding-top: 5px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.victory-btn {
+  background-color: #df7d06;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-family: "Zilla Slab", serif;
+}
+
+.victory-btn:hover {
+  color: #df7d06;
+  background-color: #0D080B;
+}
+
+.victory-btn:checked {
+  border: none;
+}
+
+.again {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .victory-img {
+    width: 200px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=victory.css.map */

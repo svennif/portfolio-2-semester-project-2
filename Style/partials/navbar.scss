@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+.navbar {
+    background-color: $black;
+
+    span {
+        color: $offwhite;
+        text-decoration: none;
+    }
+}

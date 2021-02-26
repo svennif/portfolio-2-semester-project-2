@@ -1,0 +1,33 @@
+#rollButton {
+  position: absolute;
+  left: 60%;
+}
+
+#tileContainer {
+  top: 500px;
+}
+
+#token {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.tile {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: red;
+  border: 1px solid black;
+}
+
+.history {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 150px;
+  background: #eee;
+}
+/*# sourceMappingURL=game.css.map */

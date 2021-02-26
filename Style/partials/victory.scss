@@ -1,0 +1,59 @@
+@import "variables.scss";
+
+.victory-title {
+  font-size: 3rem;
+  font-family: $zilla;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 2px solid $orange;
+  padding-bottom: 3px;
+}
+
+.victory-img {
+  height: auto;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.victory-text {
+  font-size: 2rem;
+  font-weight: 600;
+  border-top: 2px solid $orange;
+  padding-top: 5px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.victory-btn {
+  background-color: $orange;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-family: $zilla;
+
+  &:hover {
+    color: $orange;
+    background-color: $black;
+  }
+  &:checked {
+    border: none;
+  }
+}
+
+.again {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .victory-img {
+    width: 200px;
+    height: auto;
+  }
+}

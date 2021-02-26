@@ -1,0 +1,74 @@
+#tileContainer {
+  top: 500px;
+}
+
+#tokenOne {
+  position: absolute;
+  height: 60px;
+  width: 100px;
+  color: $black;
+  top: 120px;
+  left: 20px;
+}
+
+#tokenTwo {
+  position: absolute;
+  height: 60px;
+  width: 100px;
+  top: 120px;
+  left: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.tile {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: $orange;
+  border: 1px solid $black;
+}
+
+.historyOne {
+  position: absolute;
+  font-family: $roboto;
+  left: 30%;
+  top: 100px;
+  width: 200px;
+}
+
+.historyTwo {
+  position: absolute;
+  font-family: $roboto;
+  left: 41%;
+  top: 100px;
+  width: 200px;
+}
+
+#rollButton {
+  position: absolute;
+  left: 58%;
+  top: 100px;
+  width: 100px;
+  font-family: $zilla;
+
+  background-color: $orange;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+
+  &:hover {
+    color: $orange;
+    background-color: $black;
+  }
+  &:checked {
+    border: none;
+  }
+}
+
+#canvas1 {
+  position: absolute;
+  height: 200px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+}

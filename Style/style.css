@@ -1,0 +1,261 @@
+/* Color Theme Swatches in Hex */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Zilla+Slab:ital,wght@0,700;1,400&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-button span {
+  font-family: "Zilla Slab", serif;
+}
+
+/* Color Theme Swatches in Hex */
+/* FONTS */
+.navbar {
+  background-color: #0D080B;
+}
+
+.navbar span {
+  color: #f0ddcd;
+  text-decoration: none;
+}
+
+/* Color Theme Swatches in Hex */
+/* FONTS */
+.card-main-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  border-bottom: 2px solid #0D080B;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+}
+
+.card {
+  width: 270px;
+  height: 290px;
+  margin: 10px 20px 10px 0;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.card .card-text {
+  font-family: "Zilla Slab", serif;
+}
+
+.card input[type=checkbox] {
+  opacity: 0;
+}
+
+.card input[type=checkbox]:checked + label {
+  color: #df7d06;
+}
+
+.card input[type=checkbox]:disabled + label {
+  color: #f0ddcd;
+}
+
+.card input[type=checkbox]:disabled + label img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.card .card-img-top {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cardButton {
+  visibility: hidden;
+  background-color: #df7d06;
+  font-size: 1.2rem;
+  font-family: "Zilla Slab", serif;
+  color: #0D080B;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+.cardButton:hover {
+  color: #df7d06;
+  background-color: #0D080B;
+}
+
+.cardButton:checked {
+  border: none;
+}
+
+.next {
+  background: url(../images/next.svg);
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    margin: 10px auto 10px auto;
+  }
+  .card-main-title {
+    margin: 20px auto 10px auto;
+  }
+  .cardButton {
+    visibility: hidden;
+    background-color: #df7d06;
+    color: #0D080B;
+  }
+}
+
+#tileContainer {
+  top: 500px;
+}
+
+#tokenOne {
+  position: absolute;
+  height: 60px;
+  width: 100px;
+  color: #0D080B;
+  top: 120px;
+  left: 20px;
+}
+
+#tokenTwo {
+  position: absolute;
+  height: 60px;
+  width: 100px;
+  top: 120px;
+  left: 20px;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.tile {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: #df7d06;
+  border: 1px solid #0D080B;
+}
+
+.historyOne {
+  position: absolute;
+  font-family: "Roboto Slab", serif;
+  left: 30%;
+  top: 100px;
+  width: 200px;
+}
+
+.historyTwo {
+  position: absolute;
+  font-family: "Roboto Slab", serif;
+  left: 41%;
+  top: 100px;
+  width: 200px;
+}
+
+#rollButton {
+  position: absolute;
+  left: 58%;
+  top: 100px;
+  width: 100px;
+  font-family: "Zilla Slab", serif;
+  background-color: #df7d06;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+#rollButton:hover {
+  color: #df7d06;
+  background-color: #0D080B;
+}
+
+#rollButton:checked {
+  border: none;
+}
+
+#canvas1 {
+  position: absolute;
+  height: 200px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+}
+
+/* Color Theme Swatches in Hex */
+/* FONTS */
+.victory-title {
+  font-size: 3rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #df7d06;
+  padding-bottom: 3px;
+}
+
+.victory-img {
+  height: auto;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.victory-text {
+  font-size: 2rem;
+  font-weight: 600;
+  border-top: 2px solid #df7d06;
+  padding-top: 5px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.victory-btn {
+  background-color: #df7d06;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-family: "Zilla Slab", serif;
+}
+
+.victory-btn:hover {
+  color: #df7d06;
+  background-color: #0D080B;
+}
+
+.victory-btn:checked {
+  border: none;
+}
+
+.again {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .victory-img {
+    width: 200px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

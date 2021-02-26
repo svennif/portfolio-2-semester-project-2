@@ -1,0 +1,11 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-button {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=base.css.map */
